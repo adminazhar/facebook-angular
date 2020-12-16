@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'facebook';
+  title = 'asdad';
+
+   list: number[] = [1, 2, 3];
 }
