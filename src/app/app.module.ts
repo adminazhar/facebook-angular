@@ -8,6 +8,8 @@ import { FooterComponent } from './footer/footer.component';
 import { CardFriendsComponent } from './card-friends/card-friends.component';
 import { CardSearchComponent } from './card-search/card-search.component';
 import { CardYourpagesComponent } from './card-yourpages/card-yourpages.component';
+import { SidebarLinksComponent } from './sidebar-links/sidebar-links.component';
+import { ContentCenterComponent } from './content-center/content-center.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { CardYourpagesComponent } from './card-yourpages/card-yourpages.componen
     FooterComponent,
     CardFriendsComponent,
     CardSearchComponent,
-    CardYourpagesComponent
+    CardYourpagesComponent,
+    SidebarLinksComponent,
+    ContentCenterComponent
   ],
   imports: [
     BrowserModule,
